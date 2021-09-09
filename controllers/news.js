@@ -1,7 +1,12 @@
+/**
+ * @Description: 
+ * @Author: jinchuncheng
+ * @Date: 2021-09-09
+ */
 const News = require("../db/models/news.js")
 class NewsCtrl {
   index(ctx) {
-    ctx.body = "这是首页"
+    ctx.body = "News Page"
   }
   async find(ctx) {
     ctx.body = await News.find()

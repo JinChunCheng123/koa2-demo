@@ -1,6 +1,11 @@
+/**
+ * @Description: 
+ * @Author: jinchuncheng
+ * @Date: 2021-09-09
+ */
 class HomeCtrl {
   index(ctx) {
-    ctx.body = "这是首页"
+    ctx.body = "Index Page"
   }
 }
 module.exports = new HomeCtrl()
